@@ -21,12 +21,6 @@ const queryRestaurants = async (filter) => {
 
   // declaring some usefull variables
   let restaurants = new Array();
-  let cuisines = new Array();
-  let matchPrice = new Array();
-  let matchDistance = new Array();
-  let matchName = new Array();
-  let matchRate = new Array();
-  let matchCuisine = new Array();
   const price = filter.price || false;
   const distance = filter.distance || false;
   const name = filter.name || false;
