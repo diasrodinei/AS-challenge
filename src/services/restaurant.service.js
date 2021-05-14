@@ -69,11 +69,11 @@ const queryRestaurants = async (filter) => {
 
   // aplying filters to simulate a SQL WHERE
   restaurants = restaurantsJson;
-  if(cuisine){restaurants = restaurantsJson.filter(cuisineFilter);}
-  if(rate){restaurants = restaurantsJson.filter(rateFilter);}
-  if(distance){restaurants = restaurantsJson.filter(distanceFilter);}
-  if(name){restaurants = restaurantsJson.filter(nameFilter);}
-  if(price){restaurants = restaurantsJson.filter(priceFilter);}
+  if(name){restaurants = restaurants.filter(nameFilter);}
+  if(cuisine){restaurants = restaurants.filter(cuisineFilter);}
+  if(rate){restaurants = restaurants.filter(rateFilter);}
+  if(distance){restaurants = restaurants.filter(distanceFilter);}  
+  if(price){restaurants = restaurants.filter(priceFilter);}
 
   // aplying ordering to simulate a SQL ORDER BY distance  
   restaurants.sort((a,b)=>{return parseInt(a.distance) - parseInt(b.distance)})  
