@@ -5,23 +5,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2ab03f5d62a1404f87a659afe8d6d5de)](https://www.codacy.com/manual/hagopj13/node-express-mongoose-boilerplate?utm_source=github.com&utm_medium=referral&utm_content=hagopj13/node-express-boilerplate&utm_campaign=Badge_Grade)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Simple project to responde to a challenge.
+A simple project to address a challenge.
 
-By running a single command, you will get a production-ready Node.js app installed and fully configured on your machine. The app comes with many built-in features, such as request validation, unit and integration tests, continuous integration, docker support, API documentation, pagination, etc. 
+By running a single command, you will get a production-ready Node.js app installed and fully configured on your machine. The app comes with many built-in features, such as request validation, unit and integration tests, continuous integration, docker support, API documentation, pagination, etc.
 
-## Quick Start
-
-To create a project, simply run:
-
-```bash
-npx create-nodejs-express-app <project-name>
-```
-
-Or
-
-```bash
-npm init nodejs-express-app <project-name>
-```
+Its main function is to provide an api so that it is possible to search for nearby restaurants.
 
 ## Manual Installation
 
