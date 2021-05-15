@@ -13,8 +13,6 @@ Its main function is to provide an api so that it is possible to search for near
 
 ## Manual Installation
 
-If you would still prefer to do the installation manually, follow these steps:
-
 Clone the repo:
 
 ```bash
